@@ -174,7 +174,7 @@
 		<center>
 		<div id="bottom">
 			<h1>&copy; COPYRIGHT 2016 - PROJECT MANAGEMENT 7 - STARDEV</h1>
-			<h2>UNIVERSITAS KRISTEN DUTA WACANA</h2>
+			<h2>UNIVERSITAS KRISTEN DUTA</h2>
 		</div>
 		</center>
 	</div>
