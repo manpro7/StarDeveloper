@@ -7,7 +7,7 @@
 	<head>
 		<title>Official Humas - Universitas Kristen Duta Wacana</title>
 
-		<!-- ================================== FAVICON =================================== -->
+		<!-- ================================== FAVICON ================================= -->
     	<link rel="shortcut icon" href="images/favicon.png">
 
     	<!-- ============================== STYLESHEET - CSS ============================= -->
@@ -183,6 +183,7 @@
 	</div>
 
 	<!-- ================================ LINK FAKULTAS ================================= -->
+	<!-- Link ke fakultas tergantung dari web milik fakultas ybs. -->
 	<div id="wrapper_faculty">
 		<div id="faculty">
 			<div id="tic_03">
