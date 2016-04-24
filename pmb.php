@@ -7,7 +7,7 @@
 	<head>
 		<title>Official Humas - Penerimaan Mahasiswa Baru - Universitas Kristen Duta Wacana</title>
 
-		<!-- ================================== FAVICON-DLL ================================= -->
+		<!-- ================================== FAVICON ================================== -->
     	<link rel="shortcut icon" href="images/favicon.png">
 
     	<!-- ============================== STYLESHEET - CSS ============================= -->
@@ -174,7 +174,7 @@
 		<center>
 		<div id="bottom">
 			<h1>&copy; COPYRIGHT 2016 - PROJECT MANAGEMENT 7 - STARDEV</h1>
-			<h2>UNIVERSITAS KRISTEN DUTA WACANA</h2>
+			<h2>UNIVERSITAS KRISTEN DUTA WACANA YK</h2>
 		</div>
 		</center>
 	</div>

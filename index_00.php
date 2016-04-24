@@ -106,7 +106,7 @@
 			<center>
 				<h1>OBEDIENCE TO GOD</h1>
 				<h2>HUMAS DAN ADMISI UNIVERSITAS KRISTEN DUTA WACANA</h2>
-				<h3>Merupakan wujud ucapan syukur kepada Allah dengan cara<br>melakukan pekerjaan dengan baik yang dipercayakan kepada umat-Nya yang berpedoman pada perintah-Nya.</h3>
+				<h3>Merupakan wujud ucapan syukur kepada Allah dengan cara<br>melakukan pekerjaan dengan baik yang dipercayakan kepada umat-Nya.</h3>
 			</center>
 		</div>
 	</div>
@@ -183,7 +183,6 @@
 	</div>
 
 	<!-- ================================ LINK FAKULTAS ================================= -->
-	<!-- Link ke fakultas tergantung dari web milik fakultas ybs. -->
 	<div id="wrapper_faculty">
 		<div id="faculty">
 			<div id="tic_03">

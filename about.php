@@ -5,13 +5,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Official Humas - Universitas Kristen Duta Wacana</title>
+		<title>Official Humas - Tentang Humas dan Admisi - Universitas Kristen Duta Wacana</title>
 
 		<!-- ================================== FAVICON ================================= -->
     	<link rel="shortcut icon" href="images/favicon.png">
 
     	<!-- ============================== STYLESHEET - CSS ============================= -->
-		<link rel="stylesheet" type="text/css" href="css/styleIndex.css">
+		<link rel="stylesheet" type="text/css" href="css/styleAbout.css">
 		<link rel="stylesheet" type="text/css" href="css/social.css">
 		
 		<!-- =========================== JAVASCRIPT (Database) =========================== -->
@@ -100,49 +100,7 @@
           });});
   	</script>
 
-  	<!-- =================================== TITLE ====================================== -->
-	<div id="wrapper_header_title">
-		<div id="header_title">
-			<center>
-				<h1>OBEDIENCE TO GOD</h1>
-				<h2>HUMAS DAN ADMISI UNIVERSITAS KRISTEN DUTA WACANA</h2>
-				<h3>Merupakan wujud ucapan syukur kepada Allah dengan cara<br>melakukan pekerjaan dengan baik yang dipercayakan kepada umat-Nya yang berpedoman pada perintah-Nya.</h3>
-			</center>
-		</div>
-	</div>
-
-	<!-- ================================= SECTION ===================================== -->
-	<div id="wrapper_section">
-		<div id="section">
-			<div id="tic_01">
-				<h1>SEKILAS UNIVERSITAS KRISTEN DUTA WACANA</h1>
-			</div>
-			<div id="wrapper_sec_01">
-				<a href="about.php">
-					<div id="sec_01">
-						<center>
-							<h1>SEJARAH</h1>
-							<img src="images/sejarah.png" alt="Not Found"/>
-							<h2><< BACA SELENGKAPNYA >></h2>
-						</center>
-					</div>
-				</a>
-			</div>
-			<div id="wrapper_sec_02">
-				<a href="about.php">
-					<div id="sec_02">
-						<center>
-							<h1>PRESTASI</h1>
-							<img src="images/winner.jpg" alt="Not Found"/>
-							<h2><< BACA SELENGKAPNYA >></h2>
-						</center>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
-
-	<!-- ========================== SIDE BAR - SOCIAL MEDIA =========================== -->
+  	<!-- ========================== SIDE BAR - SOCIAL MEDIA =========================== -->
 	<div class='social-buttons button-right hidden-phone hidden-tablet'>
 		<a class='itemsocial' href='http://www.facebook.com/DutaWacana' id='facebook-btn' target='_blank'><span class='social-icon'><span class='social-text'>Follow via Facebook</span></span></a>
 		<a class='itemsocial' href='http://www.twitter.com/UKDW' id='twitter-btn' target='_blank'><span class='social-icon'><span class='social-text'>Follow via Twitter</span></span></a>
@@ -162,104 +120,55 @@
     });
 	</script>
 
-	<!-- ================================ LINK PMB ================================= -->
-	<div id="wrapper_iklanpmb">
-		<div id="iklanpmb">
-			<div id="tic_02">
-				<h1>PENERIMAAN MAHASISWA BARU - TAHUN 2016</h1>
-			</div>
-			<div id="wrapper_iklan_01">
-				<a href="http://pmb.ukdw.ac.id/pendaftaran/index.php" target="_blank">
-					<div id="iklan_01">
-						<center>
-							<h1>PENDAFTARAN</h1>
-							<p>(Anda belum pernah melakukan pendaftaran sebagai mahasiswa? Silahkan masuk pada link dibawah ini!)</p>
-							<h2><< LANJUTKAN PROSES >></h2>
-						</center>
-					</div>
-				</a>
-			</div>
-		</div>	
+	<!-- =================================== TITLE ====================================== -->
+	<div id="wrapper_header_title">
+		<div id="header_title">
+			<center>
+				<h1>TENTANG</h1>
+				<h2>HUMAS DAN ADMISI UNIVERSITAS KRISTEN DUTA WACANA</h2>
+				<h3>Sejarah dan Prestasi</h3>
+			</center>
+		</div>
 	</div>
 
-	<!-- ================================ LINK FAKULTAS ================================= -->
-	<!-- Link ke fakultas tergantung dari web milik fakultas ybs. -->
-	<div id="wrapper_faculty">
-		<div id="faculty">
-			<div id="tic_03">
-				<h1>FAKULTAS</h1>
+	<!-- ================================= SECTION ===================================== -->
+	<div id="wrapper_section">
+		<div id="section">
+			<div id="tic_01">
+				<h1>SEJARAH</h1>
 			</div>
-			<div id="wrapper_faculty_01">
-				<a href="fakultas.php">
-					<div id="faculty_01">
-						<center>
-							<h1>FAKULTAS TEOLOGI</h1>
-						</center>
-					</div>
-				</a>
-			</div>
-			<div id="wrapper_faculty_02">
-				<a href="fakultas.php">
-					<div id="faculty_02">
-						<center>
-							<h1>FAKULTAS TEKNOLOGI INFORMASI</h1>
-						</center>
-					</div>
-				</a>
-			</div>
-			<div id="wrapper_faculty_03">
-				<a href="fakultas.php">
-					<div id="faculty_03">
-						<center>
-							<h1>FAKULTAS ARSITEKTUR DAN DESAIN</h1>
-						</center>
-					</div>
-				</a>
-			</div>
-			<div id="wrapper_faculty_04">
-				<a href="fakultas.php">
-					<div id="faculty_04">
-						<center>
-							<h1>FAKULTAS BISNIS</h1>
-						</center>
-					</div>
-				</a>
-			</div>
-			<div id="wrapper_faculty_05">
-				<a href="fakultas.php">
-					<div id="faculty_05">
-						<center>
-							<h1>FAKULTAS BIOTEKNOLOGI</h1>
-						</center>
-					</div>
-				</a>
-			</div>
-			<div id="wrapper_faculty_06">
-				<a href="fakultas.php">
-					<div id="faculty_06">
-						<center>
-							<h1>FAKULTAS KEDOKTERAN</h1>
-						</center>
-					</div>
-				</a>
-			</div>
-			<div id="wrapper_faculty_07">
-				<a href="fakultas.php">
-					<div id="faculty_07">
-						<center>
-							<h1>PENDIDIKAN BAHASA INGGRIS</h1>
-						</center>
-					</div>
-				</a>
+			<div id="wrapper_iklan_01">
+				<div id="iklan_01">
+					<center>
+						<br><p>Pada tahun pertama 1985 dibuka Fakultas Ekonomi Jurusan manajemen dan Fakultas Teknik Jurusan Arsitektur. Tahun berikutnya 1986 dibuka satu jurusan lagi pada Fakultas Teknik yaitu Jurusan Teknik Informatika. Pada tahun 1987 didirikan pula Fakultas Biologi Jurusan Biologi Lingkungan. Pada tahun 1991 UKDW membuka program Pasca Sarjana Theologia. Pada tahun 2000, Fakultas Ekonomi membuka Jurusan Akuntansi. Pada tahun 2005 UKDW membuka Prodi Sistem Informasi dan Prodi Desain Produk. UKDW membuka Prodi Kedokteran pada tahun 2009.</p>
+					</center>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- ================================= FOOTER ==================================== -->
-	<div id="wrapper_footer">
-		<div id="footer">
-			<img src="images/ukdw.png" alt="Not Found"/>
-			<p>Universitas Kristen Duta Wacana didirikan pada tahun 1985 sebagai pengembangan dari Sekolah Tinggi Theologia Duta Wacana. Sekolah Tinggi Theologia Duta Wacana didirikan pada tahun 1962 sebagai penggabungan dari Akademi Theologia Jogjakarta dan Sekolah Theologia Bale Wiyata, Malang.</p>
+	<!-- ================================= SECTION ===================================== -->
+	<div id="wrapper_section_02">
+		<div id="section_02">
+			<div id="tic_01">
+				<h1>PRESTASI</h1>
+			</div>
+			<div id="wrapper_iklan_02">
+				<div id="iklan_02">
+					<center>
+						<br><p>1. Salah satu Universitas Terpopuler se-Indonesia pilihan Perusahaan Jabotabek (2007)</p>
+						<br><p>2. Peringkat 89 Perguruan Tinggi Terbaik se-Asia Tenggara (2007)</p>
+						<br><p>3. Tempat Uji Kompetensi - Lembaga Setifikasi Profesi TI-Telematika terbaik di Indonesia (2008)</p>
+						<br><p>4. Peringkat 11 Universitas Terbaik di Indonesia (2009)</p>
+						<br><p>5. 8 Universitas terbaik di Daerah Istimewa Yogyakarta (2009)</p>
+						<br><p>6. Salah satu dari lima Universitas di DIY yang masuk dalam kategori Service Learning for World Class University (2009)</p>
+						<br><p>7. 30 Universitas terbaik di bidang kewirausahaan di Jawa Tengah - DIY (2010)</p>
+						<br><p>8. Telkom Smart Campus Award TeSCA (2011)</p>
+						<br><p>9. Peringkat 5617 Top University Web Rangking (4icu.org 2012)</p>
+						<br><p>10. Peringkat 3673 Top Universities in the World (Webometrics, January 2012)</p>
+					</center>
+				</div>
+			</div>
 		</div>
 	</div>
 
