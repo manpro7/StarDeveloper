@@ -7,7 +7,7 @@
 	<head>
 		<title>Official Humas - Universitas Kristen Duta Wacana</title>
 
-		<!-- ================================== FAVICON ================================== -->
+		<!-- ================================== FAVICON =================================== -->
     	<link rel="shortcut icon" href="images/favicon.png">
 
     	<!-- ============================== STYLESHEET - CSS ============================= -->
