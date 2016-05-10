@@ -1,5 +1,9 @@
 @import url('cssResetBrowser.css');
 
+i{
+	font-weight: bold;
+}
+
 body{
 	font-family: calibri;
 	background-color: #004687;
