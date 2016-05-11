@@ -87,6 +87,7 @@
 	</div>
 	</div>
 	<script type="text/javascript">
+
 		jQuery("document").ready(function($){
       	var nav = $('#stay-desktop');
       	var pos = nav.offset().top;
@@ -104,13 +105,28 @@
 	<div id="wrapper_header_title">
 		<div id="header_title">
 			<center>
-				<h1>OBEDIENCE TO GOD</h1>
+				<h1 id="changeText">OBEDIENCE TO GOD</h1>
 				<h2>HUMAS DAN ADMISI UNIVERSITAS KRISTEN DUTA WACANA</h2>
-				<h3>Merupakan wujud ucapan syukur kepada Allah dengan cara<br>melakukan pekerjaan dengan baik yang dipercayakan kepada umat-Nya yang berpedoman pada perintah-Nya.</h3>
+				<h3>Merupakan wujud ucapan syukur kepada Allah dengan cara<br>melakukan pekerjaan dengan baik yang dipercayakan kepada umat-Nya.</h3>
 			</center>
 		</div>
 	</div>
-
+	<script type="text/javascript">
+	//fungsi interval visi
+        var text = ["WALKING IN INTEGRITY", "STRIVING FOR EXCELLENCE", "SERVICE TO THE WORLD","OBEDIENCE TO GOD"];
+    	var counter = 0;
+    	var lmn = document.getElementById("changeText");
+    	setInterval(function(){
+    		$("#changeText").fadeOut();
+    		lmn.innerHTML = text[counter];
+    		$("#changeText").fadeIn();
+    		counter++;
+    		if(counter >= text.length){
+    			counter = 0;
+    		}
+    	}, 5000);
+    </script>
+    
 	<!-- ================================= SECTION ===================================== -->
 	<div id="wrapper_section">
 		<div id="section">
@@ -151,6 +167,7 @@
 	</div>
 	<script>
     $(window).load(function(){
+    	
         $(&#39;.social-buttons .social-icon&#39;).mouseenter(function(){
             $(this).stop();
             $(this).animate({width:&#39;160&#39;}, 500, &#39;easeOutBounce&#39;,function(){}); 
@@ -159,6 +176,8 @@
             $(this).stop();
             $(this).animate({width:&#39;43&#39;}, 500, &#39;easeOutBounce&#39;,function(){});
         });
+
+        
     });
 	</script>
 
@@ -183,14 +202,13 @@
 	</div>
 
 	<!-- ================================ LINK FAKULTAS ================================= -->
-	<!-- Link ke fakultas tergantung dari web milik fakultas ybs. -->
 	<div id="wrapper_faculty">
 		<div id="faculty">
 			<div id="tic_03">
 				<h1>FAKULTAS</h1>
 			</div>
 			<div id="wrapper_faculty_01">
-				<a href="fakultas.php">
+				<a href="fakultas_teologi.php">
 					<div id="faculty_01">
 						<center>
 							<h1>FAKULTAS TEOLOGI</h1>
@@ -199,7 +217,7 @@
 				</a>
 			</div>
 			<div id="wrapper_faculty_02">
-				<a href="fakultas.php">
+				<a href="fakultas_ti.php">
 					<div id="faculty_02">
 						<center>
 							<h1>FAKULTAS TEKNOLOGI INFORMASI</h1>
@@ -208,7 +226,7 @@
 				</a>
 			</div>
 			<div id="wrapper_faculty_03">
-				<a href="fakultas.php">
+				<a href="fakultas_ardes.php">
 					<div id="faculty_03">
 						<center>
 							<h1>FAKULTAS ARSITEKTUR DAN DESAIN</h1>
@@ -217,7 +235,7 @@
 				</a>
 			</div>
 			<div id="wrapper_faculty_04">
-				<a href="fakultas.php">
+				<a href="fakultas_bisnis.php">
 					<div id="faculty_04">
 						<center>
 							<h1>FAKULTAS BISNIS</h1>
@@ -226,7 +244,7 @@
 				</a>
 			</div>
 			<div id="wrapper_faculty_05">
-				<a href="fakultas.php">
+				<a href="fakultas_bioteknologi.php">
 					<div id="faculty_05">
 						<center>
 							<h1>FAKULTAS BIOTEKNOLOGI</h1>
@@ -235,7 +253,7 @@
 				</a>
 			</div>
 			<div id="wrapper_faculty_06">
-				<a href="fakultas.php">
+				<a href="fakultas_kedokteran.php">
 					<div id="faculty_06">
 						<center>
 							<h1>FAKULTAS KEDOKTERAN</h1>
@@ -244,7 +262,7 @@
 				</a>
 			</div>
 			<div id="wrapper_faculty_07">
-				<a href="fakultas.php">
+				<a href="pendidikan_bahasainggris.php">
 					<div id="faculty_07">
 						<center>
 							<h1>PENDIDIKAN BAHASA INGGRIS</h1>

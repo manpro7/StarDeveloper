@@ -13,9 +13,22 @@
     	<!-- ============================== STYLESHEET - CSS ============================= -->
 		<link rel="stylesheet" type="text/css" href="css/styleLogin.css">
 		<link rel="stylesheet" type="text/css" href="css/social.css">
+		<link rel="stylesheet" type="text/css" href="css/stylePopup.css">
+		<link rel="stylesheet" type="text/css" href="css/styleLoading.css">
 		
 		<!-- =========================== JAVASCRIPT (Database) =========================== -->
 		<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('a.close').click(function(eve){
+					eve.preventDefault();
+					$(this).parents('div.popup').fadeOut('slow');
+				});
+			});
+		</script>
+		<script type="text/javascript">
+			$(window).load(function() { $(".preload-wrapper").fadeOut("slow"); })
+		</script>
 		
 		<!-- =============================== WEB RESPONSIVE =============================== -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -32,6 +45,16 @@
 	    <meta property="fb/twitter:admins" content="@chrisady9902">
 	</head>
 	<body>
+	<!-- ===================== LOADING ANIMATION ===================== -->
+	<div class="preload-wrapper">
+    	<div id="preloader_7">
+    	</div>
+		<div class="loader-section section-left">
+		</div>
+		<div class="loader-section section-right">
+		</div>
+	</div>
+
 	<!-- ================================= HEADER ==================================== -->
 	<div id="stay-desktop">
 	<div id="wrapper_header">
@@ -120,8 +143,48 @@
     });
 	</script>
 
+	<!-- ===================== POPUP ===================== -->
+	<div class="popup">
+		<div id="box">
+			<a class="close" href="#">X</a>
+				<CENTER>
+					<br><br><p>Selamat Datang, Administrator</p>
+					<h1><br>INSTRUCTION BY WEBSITE MANAGER : <br> [This is a page for login and user authentication administrator!]</h1>
+				</CENTER>
+		</div>		
+	</div>
+
 	<div id="wrapper_login">
-		
+		<div id="login">
+			<div id="formulir_login">
+				<form action="proses_login.php" method="post">
+				<center>
+				<table>
+					<tbody>
+						<tr>
+							<td style="font-size:23px;text-align: center;color: white;font-weight: bold;">USERNAME</td>
+						</tr>
+						<tr>
+							<td><input name="username" type="text" style="margin-top:7px;width:220px;height:30px;font-size:18px;border-radius:3px" required></td>
+						</tr>
+						<tr>
+							<td style="font-size:2px;color:#eee;height: 20px">.</td>
+						</tr>
+						<tr>
+							<td style="font-size:23px;text-align: center;color: white;font-weight: bold;">PASSWORD</td>
+						</tr>
+						<tr>
+							<td><input name="password" type="password" style="margin-top:7px;width:220px;height:30px;font-size:18px;border-radius:3px" required></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="LOGIN" style="margin-top:20px;margin-left: 23px;width:90px;height:40px;font-size:15px;font-weight:bold;background-image:linear-gradient(#169EDA, #3C4498);border-radius:5px;color:white"><input type="reset" value="CLEAR" style="margin-top:20px;margin-left:10px;width:90px;height:40px;font-size:15px;font-weight:bold;background-image:linear-gradient(#169EDA, #3C4498);border-radius:5px;color:white"></td>
+						</tr>
+					</tbody>
+				</table>
+				</center>
+				</form>
+			</div>
+		</div>
 	</div>
 
 	<!-- ================================= COPYRIGHT ==================================== -->

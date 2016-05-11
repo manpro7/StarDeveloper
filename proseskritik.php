@@ -13,7 +13,7 @@
   }
   else
   {
-     $simpan = mysql_query("INSERT INTO kritiksaran(id_kritiksaran,subject,pesan,nama,email,nomor)
+     $simpan = mysql_query("INSERT INTO kritik(id_kritik,subject,pesan,nama,email,nomor)
       VALUES('','$subject','$pesan','$nama','$email','$nomor')");
      if($simpan) {
        echo 'Kritik dan Saran Telah Diterima!, Terima Kasih<a href="kontak.php"> Kembali</a>';

@@ -140,7 +140,7 @@
 			<div id="wrapper_iklan_01">
 				<div id="iklan_01">
 					<center>
-						<br><p>Pada tahun pertama 1985 dibuka Fakultas Ekonomi Jurusan manajemen dan Fakultas Teknik Jurusan Arsitektur. Tahun berikutnya 1986 dibuka satu jurusan lagi pada Fakultas Teknik yaitu Jurusan Teknik Informatika. Pada tahun 1987 didirikan pula Fakultas Biologi Jurusan Biologi Lingkungan. Pada tahun 1991 UKDW membuka program Pasca Sarjana Theologia. Pada tahun 2000, Fakultas Ekonomi membuka Jurusan Akuntansi. Pada tahun 2005 UKDW membuka Prodi Sistem Informasi dan Prodi Desain Produk. UKDW membuka Prodi Kedokteran pada tahun 2009.</p>
+						<br><p>Pada tahun pertama (1985) dibuka Fakultas Ekonomi Jurusan manajemen dan Fakultas Teknik Jurusan Arsitektur. Tahun berikutnya (1986) dibuka satu jurusan lagi pada Fakultas Teknik yaitu Jurusan Teknik Informatika. Pada tahun 1987 didirikan pula Fakultas Biologi Jurusan Biologi Lingkungan. Pada tahun 1991 UKDW membuka program Pasca Sarjana Theologia. Pada tahun 2000, Fakultas Ekonomi membuka Jurusan Akuntansi. Pada tahun 2005 UKDW membuka Prodi Sistem Informasi dan Prodi Desain Produk. UKDW membuka Prodi Kedokteran pada tahun 2009.</p>
 					</center>
 				</div>
 			</div>
